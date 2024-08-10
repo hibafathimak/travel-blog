@@ -1,0 +1,246 @@
+
+  *{
+    font-family: "Ubuntu", sans-serif;
+  }
+
+.my-nav{
+  z-index: 10;
+  width: 100%;
+  }
+
+  .nav-item a{
+    color:#ffffff;
+  }
+  .hero1{
+    width: 85vw;
+    height: 500px;
+ background-image: url(./images/white\ sands.jpg);
+  }
+.carousel-item img{
+  height: 100vh;
+}
+.carousel-caption {
+  margin-bottom: 250px;
+}
+.heading{
+  font-family: "Kaushan Script", cursive;
+  font-size: 50px;
+}
+  .button1{
+    background-color:#8D493A ;
+    color:#F8EDE3 ;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border: 2px solid transparent;
+    transition: all .50s ease;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  #viewmore{
+    width: 120px;
+  }
+.button1:hover{
+    transform: translateX(10px);
+    border: 2px solid #F8EDE3;
+    background: transparent;
+}
+.sec1 h1{
+    color: #000000;
+}
+.sec1-card{
+    position: relative;
+    cursor: pointer;
+    width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+
+}
+.sec1 p{
+    color: #000000;
+}
+
+.sec1-card img {
+display:block;
+position:relative;
+transition: transform .6s ease;
+}
+.sec1-card:hover img {
+  transform:scale(1.1);
+  }
+
+  .sec1-card:hover .hover-2-description {
+    bottom: 1rem;    }
+
+
+.hover-2-description {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  z-index: 100;
+  transition: all 0.3s;
+  color: #F8EDE3;
+}
+
+
+.sec3{
+    width: 100%;
+    height: 80%;
+}
+.line{
+  width: 80px;
+  height: 4px;
+  background-color: #8D493A;
+}
+.row{
+    width: 80%;
+}
+
+.col-img{
+box-shadow: none;
+}
+.col-img:hover{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sec4-card{
+  width: 280px;
+  padding: 5px;
+  box-shadow: none;
+  transition: transform .6s ease;
+}
+
+
+  .sec4-card:hover {
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    cursor: pointer;
+    }
+
+
+.sec5-main{
+
+  width: 90vw;
+  border-radius: 0px 40px 0px 40px;
+  background-color: #DFD3C3;
+  padding: 20px  10px ;
+
+}
+
+
+#email{
+  margin-right: 25px;
+  /* width: 400px; */
+  height: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 3px;
+
+}
+
+.sec2{
+  width: 100%;
+  padding:50px ;
+  height: 80%;
+  
+}
+.sec6{
+  margin: 80px 0px;
+  width: 100vw;
+  height: 500px;
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+#back-video{
+  position: absolute;
+  object-fit: cover;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  background: rgba(0,0,0,0.1);
+}
+.d2{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  color: #fff;
+  z-index: 3;
+}
+footer{
+  background-color:#D0B8A8;
+  color:#8D493A;
+  width: 100%;
+  padding-top: 30px;
+}
+.f-link{
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+  color: white;
+}
+.card-content:hover{
+  opacity: 1;
+
+}
+.insta{
+  width: 100%;
+}
+
+@media (max-width:768px){
+   #navbarNav{
+    padding: 20px;
+    background-color:#8D493A;
+    text-align: center;
+   }
+   .nav-item a{
+    color:#F8EDE3;
+  }
+
+}
+@media (max-width:1024px)
+{
+
+    .vdo{
+        width: 100vw;
+    }
+    .carousel-caption {
+      margin-bottom: 200px;
+    }
+
+}
+@media (max-width:510px)
+{
+
+  .carousel-item img{
+    height: 60vh;
+  }
+
+}

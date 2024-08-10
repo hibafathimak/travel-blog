@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Blog</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Kaushan+Script&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&family=Satisfy&family=Style+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="head w-100">
+    <nav class="navbar navbar-dark position-absolute top-0  navbar-expand-lg my-nav">
+      <div class="container">
+        <a class="navbar-brand" style="width: 160px;" href="#"><img
+            src="./images/Black_Minimalist_Simple_Personal_Name_Logo__2_-removebg-preview.png" class="w-100"></a>
+        <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-auto">
+            <li class="nav-item ms-2 me-2 ">
+              <a class="nav-link text-uppercase fs-5 fw-bold link" href="#">Home</a>
+            </li>
+            <li class="nav-item ms-2 me-2 ">
+              <a class="nav-link text-uppercase fs-5 fw-bold link" href="#">Popular</a>
+            </li>
+            <li class="nav-item ms-2 me-2 ">
+              <a class="nav-link text-uppercase  fs-5 fw-bold link" href="#">Destinations</a>
+            </li>
+            <li class="nav-item ms-2 me-2 ">
+              <a class="nav-link text-uppercase fs-5 fw-bold link" href="#">Blog</a>
+            </li>
+            <li class="nav-item ms-2 me-2 ">
+              <a class="nav-link text-uppercase fs-5 fw-bold link" href="#">Pages</a>
+            </li>
+
+          </ul>
+          <div class="nav-item ms-2 me-2 ">
+            <button type="button" class="text-uppercase button1 link">Search<i  class="fa-solid fa-magnifying-glass" style="color: #F8EDE3;margin-left: 5px;"></i></button>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner text">
+        <div class="carousel-item active">
+          <img src="./images/kyoto-header.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block " >
+            <h1 class="text-uppercase heading" >Experience the World</h1>
+            <p class="fs-4">Create Memories for a Lifetime.</p>
+            <button type="button" class="text-uppercase button1 link">Explore</button>
+
+          </div>
+        </div>
+        <div class="carousel-item text-center">
+          <img src="./images/oia-santorini-greece-royalty-free-image-1654536286.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class=" text-uppercase heading">Never Stop Exploring</h1>
+            <p class="fs-4">Spark Your Inner Explorer.</p>
+            <button type="button" class="text-uppercase button1 link">Contact</button>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Varenna_lake_como.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption d-none d-md-block ">
+            <h1 class=" text-uppercase heading">Adventure is calling</h1>
+            <p class="fs-4">Escaping the ordinary, embracing the extraordinary.</p>
+            <button type="button" class="text-uppercase button1 ">Contact</button>
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="sec1 d-flex flex-column align-items-center justify-content-center w-100 mt-5" data-aos="fade-up">
+    <h1 class="text-uppercase">popular destinations</h1>
+    <p class="fs-4 text-center">Travel is more than the seeing of sights; it is a change that goes on, deep and permanent, in the ideas of living.</p>
+    <div class="line "></div>
+
+    <div class="container d-flex flex-wrap align-items-center justify-content-center w-100 mt-5" data-aos="fade-up"
+    data-aos-duration="2000">
+      <div class="m-2 sec1-card" style="width: 350px; height: 450px;">
+        <img src="./images/colosseum.jpg" class="w-100 h-100" alt="">
+        <h2 class="hover-2-description text-uppercase mb-2">rome</h2>
+      </div>
+      <div class="m-2 sec1-card" style="width: 350px; height: 450px;">
+        <img src="./images/marble-caves.jpg" class="w-100 h-100" alt="">
+        <h2 class="hover-2-description text-uppercase mb-2">marble caves</h2>
+      </div>
+      <div class=" m-2 sec1-card" style="width: 350px; height: 450px;">
+        <img src="./images/burj khalifa.jpeg" class="w-100 h-100" alt="">
+        <h2 class="hover-2-description text-uppercase mb-2">dubai</h2>
+      </div>
+  </section>
+
+  <div class="mt-5 hero d-flex align-items-center justify-content-center p-2" style="height: 80vh;">
+    <div class="hero1 d-flex flex-column align-items-center justify-content-center rounded ">
+      <h1 class="text-uppercase text-center text-light" data-aos="fade-down">
+        Best Places to Travel in the World</h1>
+      <p class="fs-4 text-center text-light" data-aos="fade-down">Get yourself a road of eternal uncertainity.</p>
+      <button type="button" data-aos="fade-down" class="text-uppercase button1 link">View All</button>
+    </div>
+  </div>
+
+  <section class="sec3 d-flex flex-column align-items-center justify-content-center mt-5 mb-5 ">
+
+    <div class="sec3-title d-flex flex-column align-items-center justify-content-center  mt-5 ">
+      <h1 class="text-uppercase">destinations</h1>
+      <div class="line"></div>
+    </div>
+
+    <div class="row mt-5 mb-5">
+      <div class="col-12 col-lg-4 col-md-4 mb-4 mb-lg-0 "  data-aos="zoom-in-right" data-aos-duration="1000">
+          <img src="./images/Plateau-de-Valensole-Provence-lavender-social.jpg" class="w-100 shadow-1-strong rounded mb-4 col-img" alt="" />
+          <img src="./images/cappadocia-turkey.jpg"
+            class="w-100 shadow-1-strong rounded mb-4 col-img" alt=" " />
+      </div>
+
+
+      <div class="col-12 col-lg-4 col-md-4  mb-4 mb-lg-0"  data-aos="zoom-in" data-aos-duration="1000">
+
+          <img src="./images/bdeda4551fe43eff1b1981f8f886e409.jpg"
+            class="w-100 shadow-1-strong rounded mb-4 col-img" alt="" />
+
+          <img src="./images/neuschwanstein-disney-castle-inspiration.jpg"
+            class="w-100 shadow-1-strong rounded mb-4 col-img" alt="" />
+
+      </div>
+      <div class="col-12 col-lg-4 col-md-4  mb-4 mb-lg-0"  data-aos="zoom-in-left" data-aos-duration="1000">
+
+        <img src="./images/hamnoy-norvege-iles-lofoten-2.jpg"
+        class="w-100 shadow-1-strong rounded mb-4 col-img" alt="" />
+
+        <img src="./images/yamen.jpg"
+        class="w-100 shadow-1-strong rounded mb-4 col-img" alt="" />
+
+
+      </div>
+    </div>
+  </section>
+  <section class="sec5 d-flex justify-content-center w-100 ">
+    <div class="sec5-main d-flex flex-wrap justify-content-evenly align-items-center">
+      <div id="sec5-content" class=" d-flex flex-wrap flex-column justify-content-center text-left p-2 ">
+        <h2 class="text-uppercase">ready to explore?</h2>
+        <p class="fs-5 text-left">Subscribe and be the first to receive on upcoming contests & more!</p>
+      </div>
+      <div id="sec5-form" class="d-flex flex-wrap justify-content-evenly align-items-center  p-4">
+        <input type="text" id="email" placeholder="EMAIL">
+        <button type="button" class="mt-2 mt-md-0 text-uppercase button1">sign up</button>
+      </div>
+    </div>
+  </section>
+  <section class="sec4 w-100 d-flex flex-column justify-content-evenly align-items-center mt-5 " data-aos="fade-down">
+    <h1 class="text-uppercase">Our Blog</h1>
+    <p class="fs-4 text-center">See Our Daily News & Updates</p>
+    <div class="line "></div>
+
+
+    <div class="d-flex flex-wrap w-100 justify-content-evenly mt-5">
+      <div class="card border-0 rounded-0 mb-3 sec4-card" >
+        <img
+          src="./images/pexels-earano-1352196.jpg" class="card-img-top rounded-0 " alt="...">
+        <div class="card-body ">
+          <p class="card-text">14.08.2023 by Marina Lorena </p>
+          <h4 class="card-title">Desert sands stretched endlessly, a canvas painted</h4>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card border-0 rounded-0  mb-3 sec4-card"  >
+        <img
+          src="./images/city-royalty-free-image-1570218827.jpg"
+          class="card-img-top rounded-0 " alt="...">
+        <div class="card-body">
+          <p class="card-text">14.08.2023 by Marina Lorena </p>
+          <h4 class="card-title">
+            Each city has a unique story woven into its streets</h4>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card border-0 rounded-0  mb-3 sec4-card"  >
+        <img src="./images/Home-5-single-img-08.jpg" class="card-img-top  rounded-0" alt="...">
+        <div class="card-body">
+          <p class="card-text">14.08.2023 by Marina Lorena </p>
+          <h4 class="card-title">Time stood still as we gazed at the majestic wonder of nature</h4>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card border-0 rounded-0  mb-3 sec4-card" >
+        <img src="./images/jordan.jpg" class="card-img-top  rounded-0" alt="...">
+        <div class="card-body">
+          <p class="card-text">14.08.2023 by Marina Lorena </p>
+          <h4 class="card-title">Lost in ancient alleys  we discovered a chaarming city</h4>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card border-0 rounded-0 mb-3 sec4-card"  >
+        <img src="./images/road-in-fall.jpg" class="card-img-top  rounded-0" alt="...">
+        <div class="card-body ">
+          <p class="card-text">14.08.2023 by Marina Lorena </p>
+          <h4 class="card-title">Living for wanderlust & world exploration</h4>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+
+    </div>
+    <button type="button" id="viewmore" class="mt-4 text-uppercase button1">view more</button>
+  </section>
+  <section class="sec6 w-100 " data-aos="fade-down">
+    <video autoplay loop muted plays-inline id="back-video">
+      <source src="./images/1409899-uhd_3840_2160_25fps.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay">
+
+    </div>
+    <div class="d2 text-center ">
+      <p class="text-uppercase">check out our Youtube channel </p>
+      <h1 class="text-uppercase">25 Places To See Before You Die</h1>
+      <button type="button" id="viewmore" class="text-uppercase button1">view</button>
+    </div>
+
+  </section>
+  <div class="d-flex flex-column align-items-center justify-content-center mt-5">
+    <h1 class="text-uppercase text-center ">Our posts</h1>
+    <p class="fs-4 text-center">Follow us on Instagram</p>
+    <div class="line "></div>
+  </div>
+
+  <section class="insta d-flex flex-wrap justify-content-center w-100 mt-5 ">
+    <div class="card m-3 m-xxl-0 border-0" style="width: 217px; "data-aos="fade-up">
+      <img src="./images/post1.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-content">
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+      </div>
+    </div>
+    <div class="card m-3 m-xxl-0 border-0 " style="width: 217px;" data-aos="fade-up">
+      <img src="./images/post2.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-content">
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+      </div>
+    </div>
+    <div class="card m-3 m-xxl-0 border-0" style="width: 217px;" data-aos="fade-up">
+      <img src="./images/post3.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-content">
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+      </div>
+    </div>
+    <div class="card m-3 m-xxl-0 border-0" style="width: 217px;" data-aos="fade-up">
+      <img src="./images/post4.jpeg" class="card-img-top rounded-0" alt="...">
+      <div class="card-content">
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+      </div>
+    </div>
+    <div class="card m-3 m-xxl-0 border-0" style="width: 217px;" data-aos="fade-up">
+      <img src="./images/post5.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-content">
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+      </div>
+    </div>
+    <div class="card m-3 m-xxl-0 border-0" style="width: 217px;" data-aos="fade-up">
+      <img src="./images/post6.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-content">
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+      </div>
+    </div>
+    <div class="card m-3 m-xxl-0 border-0" style="width: 217px" data-aos="fade-up">
+      <img src="./images/post7.jpg" class="card-img-top rounded-0" alt="...">
+      <div class="card-content">
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+      </div>
+    </div>
+  </section>
+  <footer class="d-flex flex-wrap flex-column mt-xl-5">
+    <div class="d-flex flex-wrap justify-content-evenly ">
+      <div class="f1 mt-3 d-flex flex-column ">
+        <h5>ABOUT US</h5>
+        <a class="f-link" href="">Our Company</a>
+        <a class="f-link" href="">Our Management</a>
+        <a class="f-link" href="">Connections</a>
+        <a class="f-link" href="">Annual Reports</a>
+        <a class="f-link" href="">Our Networks</a>
+
+      </div>
+      <div class="f2 mt-3">
+        <h5>SOCIAL MEDIA</h5>
+        <div class=" mt-5 d-flex flex-wrap">
+          <i class="me-4 fa-brands fa-facebook fa-xl  icons" style="color: #ffffff;"></i>
+          <i class="me-4 fa-brands fa-instagram fa-xl  icons" style="color: #ffffff;"></i>
+          <i class="me-4 fa-brands fa-twitter fa-xl  icons" style="color: #ffffff;"></i>
+          <i class="fa-brands fa-whatsapp fa-xl  icons" style="color: #ffffff;"></i>
+        </div>
+      </div>
+      <div class="f3 d-flex flex-column mt-5 mb-5">
+        <img class="w-100" src="./images/Black_Minimalist_Simple_Personal_Name_Logo__2_-removebg-preview.png" alt="">
+        <h5 class="fs-3">Explore The World</h5>
+
+      </div>
+
+    </div>
+    <div class="text-center">&copy; Travel Guide | All Rights Reserved</div>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
